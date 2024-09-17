@@ -79,5 +79,5 @@ btnSignUp.addEventListener('click', (event) => {
 });
 
 function Login() {
-    window.location.href = 'Home.html';
+    window.location.href = 'Login.html';
 }
