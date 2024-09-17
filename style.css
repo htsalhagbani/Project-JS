@@ -1,0 +1,268 @@
+.custom{
+    border: 1px solid black;
+    height: 100vh;
+   background-color: #ebd5d3;
+}
+
+.custom2 {
+    width: 80%; 
+    max-width: 600px; 
+    /* height: 50%; */
+    /* max-height: 50%; */
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    background-color: #eeb8b5;
+    border-radius: 15px;
+}
+
+.divIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divIcon i {
+    font-size: 5rem; 
+    color: gray;
+
+  }
+
+.password-container .bi-eye,
+.password-container .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+    cursor: pointer;
+}
+
+.password-container .form-control {
+    padding-right: 40px; 
+}
+
+.password-container {
+    position: relative;
+}
+
+
+.password-container1 .bi-eye,
+.password-container1 .bi-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-40%);
+    cursor: pointer;
+}
+
+.password-container1 .form-control {
+    padding-right: 40px; 
+}
+
+.password-container1 {
+    position: relative;
+}
+.header{
+    color: gray;
+}
+
+.chat{
+    color: gray;
+    font-size: 2rem;
+}
+
+.profilebody{
+    background-color: #f6ebea;
+    border-radius: 10px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border-radius: 8px; 
+}
+.navbackground{
+    background-color: #eeb8b5;
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+    border-radius: 50%;
+}
+.logo-name {
+    display: inline-block;
+    margin-left: 10px; 
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-item {
+    margin-left: 20px; 
+}
+
+#navbarNav li{
+    color: #ECCAC8;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.profile-info {
+    flex: 1;
+}
+.profile-info h2 {
+    margin-bottom: 10px;
+}
+.profile-info p {
+    margin-bottom: 5px;
+}
+.btn-edit {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+.btn-edit:hover {
+    color: #0056b3;
+}
+.editable {
+    display: none;
+}
+
+.logout{
+    font-size: 2rem;
+}
+
+.navbar-nav .logout {
+    font-size: 1.6rem; 
+    cursor: pointer;
+}
+.navbar-nav .logout-button {
+    border: none;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+.navbar-nav .logout-button:hover {
+    color: pink;
+}
+
+.cv-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.cv-section h3 {
+    margin-bottom: 15px;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: #f6ebea; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+
+
+.profilebody a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+.boxcard{
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cardimg{
+    width: 100%; /* Make image fit the width of the card */
+    height: 100%; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 20px;
+}
+
+.cardHome:hover {
+    transform: scale(1.05); /* Scale card slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    margin-bottom: 20px;
+}
+.form-control {
+    border-radius: 4px;
+}
+.btn-custom {
+    background-color: #eb9f98;
+    color: black;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.btn-custom:hover {
+    background-color: #cecfd0;
+}
+.form-control-file {
+    border-radius: 4px;
+}
+
+.bgform{
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;    
+}
+.cardHome {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardimg {
+    height: 100%; 
+    object-fit: cover; 
+}
+.boxcard {
+    padding: 20px;
+}
+.btn-danger {
+    margin-top: 10px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+border-radius: 20px;
+}
+
+
+.loginBtn{
+    background-color: rgb(208, 205, 205);
+    border: 2px solid black;
+}
